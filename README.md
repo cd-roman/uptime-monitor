@@ -13,7 +13,7 @@ A GitHub Action that monitors websites' uptime, logs results, and creates issues
 
 ## Getting Started
 
-If you’re new to GitHub Actions or prefer a detailed, step-by-step guide, check out [GETTING_STARTED](docs/GETTING_STARTED.md) guide. Otherwise, continue here for a quick setup.
+If you’re new to GitHub Actions or prefer a detailed, step-by-step guide, check out **[GETTING_STARTED](docs/GETTING_STARTED.md)** guide. Otherwise, continue here for a quick setup.
 
 ## Usage
 

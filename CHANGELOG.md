@@ -7,9 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased](https://github.com/cd-roman/uptime-monitor/compare/v1.0.2...HEAD)
 
+## [v1.0.3](https://github.com/cd-roman/uptime-monitor/compare/v1.0.2...v1.0.3) - 2025-06-20
+
+- Add check and info message to skip git commit if log file is ignored by .gitignore.
 - Fix path to GETTING_STARTED.md for the README.md
 - Update GETTING_STARTED.md to include an additional step that prevents errors when the log file is ignored.
-- Add check and info message to skip git commit if log file is ignored by .gitignore.
 
 ## [v1.0.2](https://github.com/cd-roman/uptime-monitor/compare/v1.0.1...v1.0.2) - 2025-06-17
 

@@ -32065,6 +32065,8 @@ async function getLastLines(logFilePath, lineCount) {
 }
 
 ;// CONCATENATED MODULE: ./src/utils.js
+
+
 function isValidUrl(urlString) {
   try {
     const url = new URL(urlString);
@@ -32081,9 +32083,34 @@ function formatLogLine({
   responseTimeSec,
   errorMessage,
 }) {
-  const base = `[${timestamp}] ${url} → Status: ${status}, Response: ${responseTimeSec.toFixed(3)}s`;
+  const base = `[${timestamp}] ${url} → Status: ${status}, Response: ${responseTimeSec.toFixed(
+    3
+  )}s`;
+
   return errorMessage ? `${base}, Error: ${errorMessage}\n` : `${base}\n`;
 }
+
+/**
+ * Checks if a file is ignored by git.
+ * @param {string} filePath
+ * @returns {Promise<boolean>}
+ */
+async function isGitIgnored(filePath) {
+  let output = "";
+  await (0,exec.exec)("git", ["check-ignore", filePath], {
+    ignoreReturnCode: true,
+    listeners: {
+      stdout: (data) => {
+        output += data.toString();
+      },
+    },
+  });
+
+  const isIgnored = output.trim() === filePath;
+
+  return isIgnored;
+}
+
 ;// CONCATENATED MODULE: ./src/github.js
 async function createIssue(octokit, owner, repo, title, body) {
   await octokit.rest.issues.create({
@@ -32206,6 +32233,17 @@ ${(await getLastLines(logFile, 20)).join("\n")}
     }
 
     core.info(`Staging & committing ${logFile}`);
+
+    const ignored = await isGitIgnored(logFile);
+    if (ignored) {
+      core.setFailed(
+        `${logFile} is git-ignored. The workflow cannot proceed because the log file will not be committed. 
+        Please update your .gitignore and then rerun the workflow.`
+      );
+
+      return;
+    }
+
     await (0,exec.exec)("git", ["config", "user.name", "github-actions"]);
     await (0,exec.exec)("git", [
       "config",
