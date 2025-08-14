@@ -56,7 +56,7 @@ jobs:
     timeout-minutes: 20    # cancel the job if it runs over 20 minutes
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Monitor websites
         uses: cd-roman/uptime-monitor@v1

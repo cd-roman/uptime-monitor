@@ -33,7 +33,7 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       
       - name: Monitor websites
         uses: cd-roman/uptime-monitor@v1
@@ -95,7 +95,7 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Monitor websites
         uses: cd-roman/uptime-monitor@v1
