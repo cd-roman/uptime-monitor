@@ -1,6 +1,6 @@
 {
   "name": "website-uptime-monitor-action",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Checks a list of URLs, logs status/response times, opens an issue on failures, and commits the log file.",
   "main": "index.js",
   "scripts": {
