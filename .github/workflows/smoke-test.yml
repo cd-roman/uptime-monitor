@@ -38,6 +38,7 @@ jobs:
             https://httpbin.org/delay/5
             https://httpbin.org/delay/16
           timezone: "Europe/Paris"
+          timeout: "10"
           log-file: "uptime-smoke.log"
           commit-message: "🔍 Smoke‐test run"
            
