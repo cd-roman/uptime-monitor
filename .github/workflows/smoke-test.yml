@@ -36,7 +36,7 @@ jobs:
             https://httpbin.org/status/404
             https://httpbin.org/status/500
             https://httpbin.org/delay/5
-            https://httpbin.org/delay/16
+            https://httpbin.org/delay/10
           timezone: "Europe/Paris"
           timeout: "10"
           log-file: "uptime-smoke.log"
