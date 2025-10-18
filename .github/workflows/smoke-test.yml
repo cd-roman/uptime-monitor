@@ -32,11 +32,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           sites: |
-            https://httpstat.us/200 
-            https://httpstat.us/404
-            https://httpstat.us/500
-            https://httpstat.us/200?sleep=5000
-            https://httpstat.us/200?sleep=16000
+            https://httpbin.org/status/200
+            https://httpbin.org/status/404
+            https://httpbin.org/status/500
+            https://httpbin.org/delay/5
+            https://httpbin.org/delay/16
           timezone: "Europe/Paris"
           log-file: "uptime-smoke.log"
           commit-message: "🔍 Smoke‐test run"
