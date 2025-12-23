@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased](https://github.com/cd-roman/uptime-monitor/compare/v1.0.5...HEAD)
 
+### Changed
+
+- Update dependencies
+
 ## [v1.0.5](https://github.com/cd-roman/uptime-monitor/compare/v1.0.4...v1.0.5) - 2025-11-29
 
 ### Changed
