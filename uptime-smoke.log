@@ -42,3 +42,10 @@
 [2025-12-23T12:24:50+01:00] https://httpbin.org/status/500 → Status: 500, Response: 1.408s
 [2025-12-23T12:24:50+01:00] https://httpbin.org/delay/5 → Status: 200, Response: 6.442s
 [2025-12-23T12:24:50+01:00] https://httpbin.org/delay/10 → Status: 502, Response: 0.345s
+
+---
+[2026-01-17T11:52:10+01:00] https://httpbin.org/status/200 → Status: 200, Response: 0.164s
+[2026-01-17T11:52:10+01:00] https://httpbin.org/status/404 → Status: 404, Response: 0.281s
+[2026-01-17T11:52:10+01:00] https://httpbin.org/status/500 → Status: 500, Response: 0.094s
+[2026-01-17T11:52:10+01:00] https://httpbin.org/delay/5 → Status: 200, Response: 5.497s
+[2026-01-17T11:52:10+01:00] https://httpbin.org/delay/10 → Status: 0, Response: 10.004s, Error: Timeout
