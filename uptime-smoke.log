@@ -56,3 +56,10 @@
 [2026-01-31T17:06:14+01:00] https://httpbin.org/status/500 → Status: 0, Response: 10.000s, Error: Timeout
 [2026-01-31T17:06:14+01:00] https://httpbin.org/delay/5 → Status: 0, Response: 10.001s, Error: Timeout
 [2026-01-31T17:06:14+01:00] https://httpbin.org/delay/10 → Status: 0, Response: 10.001s, Error: Timeout
+
+---
+[2026-02-07T13:56:29+01:00] https://httpbin.org/status/200 → Status: 200, Response: 0.428s
+[2026-02-07T13:56:29+01:00] https://httpbin.org/status/404 → Status: 404, Response: 0.844s
+[2026-02-07T13:56:29+01:00] https://httpbin.org/status/500 → Status: 500, Response: 0.528s
+[2026-02-07T13:56:29+01:00] https://httpbin.org/delay/5 → Status: 200, Response: 5.527s
+[2026-02-07T13:56:29+01:00] https://httpbin.org/delay/10 → Status: 0, Response: 10.001s, Error: Timeout
