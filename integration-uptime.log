@@ -1,0 +1,4 @@
+# Uptime Monitor Log
+
+[2026-04-28T19:17:35+00:00] https://good.com → Status: 200, Response: 0.001s
+[2026-04-28T19:17:35+00:00] https://bad.com → Status: 500, Response: 0.000s
