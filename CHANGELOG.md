@@ -5,12 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased](https://github.com/cd-roman/uptime-monitor/compare/v1.0.7...HEAD)
+## [Unreleased](https://github.com/cd-roman/uptime-monitor/compare/v1.0.8...HEAD)
 
 ### Changed
 
-- Update dependencies
+- No changes yet
+
+## [v1.0.8](https://github.com/cd-roman/uptime-monitor/compare/v1.0.7...v1.0.8) - 2026-06-27
+
+### Changed
+
 - Update actions/checkout from v6 to v7 in workflows and documentation
+- Update dependencies
 
 ## [v1.0.7](https://github.com/cd-roman/uptime-monitor/compare/v1.0.6...v1.0.7) - 2026-05-09
 
