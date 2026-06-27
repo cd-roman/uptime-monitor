@@ -77,3 +77,10 @@
 [2026-04-28T21:50:22+02:00] https://httpbin.org/status/500 → Status: 500, Response: 0.255s
 [2026-04-28T21:50:22+02:00] https://httpbin.org/delay/5 → Status: 200, Response: 5.271s
 [2026-04-28T21:50:22+02:00] https://httpbin.org/delay/10 → Status: 0, Response: 10.002s, Error: Timeout
+
+---
+[2026-06-27T13:23:07+02:00] https://httpbin.org/status/200 → Status: 503, Response: 0.313s
+[2026-06-27T13:23:07+02:00] https://httpbin.org/status/404 → Status: 503, Response: 0.304s
+[2026-06-27T13:23:07+02:00] https://httpbin.org/status/500 → Status: 503, Response: 0.287s
+[2026-06-27T13:23:07+02:00] https://httpbin.org/delay/5 → Status: 503, Response: 0.286s
+[2026-06-27T13:23:07+02:00] https://httpbin.org/delay/10 → Status: 503, Response: 0.300s
