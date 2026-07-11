@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- No changes yet
+- Update dependencies
 
 ## [v1.0.8](https://github.com/cd-roman/uptime-monitor/compare/v1.0.7...v1.0.8) - 2026-06-27
 
