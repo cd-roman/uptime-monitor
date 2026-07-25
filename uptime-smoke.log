@@ -98,3 +98,10 @@
 [2026-07-25T15:20:31+02:00] https://httpbin.org/status/500 → Status: 500, Response: 1.045s
 [2026-07-25T15:20:31+02:00] https://httpbin.org/delay/5 → Status: 0, Response: 10.001s, Error: Timeout
 [2026-07-25T15:20:31+02:00] https://httpbin.org/delay/10 → Status: 0, Response: 10.001s, Error: Timeout
+
+---
+[2026-07-25T15:39:20+02:00] https://httpbin.org/status/200 → Status: 0, Response: 10.002s, Error: Timeout
+[2026-07-25T15:39:20+02:00] https://httpbin.org/status/404 → Status: 0, Response: 10.000s, Error: Timeout
+[2026-07-25T15:39:20+02:00] https://httpbin.org/status/500 → Status: 500, Response: 1.204s
+[2026-07-25T15:39:20+02:00] https://httpbin.org/delay/5 → Status: 0, Response: 10.000s, Error: Timeout
+[2026-07-25T15:39:20+02:00] https://httpbin.org/delay/10 → Status: 0, Response: 10.000s, Error: Timeout
