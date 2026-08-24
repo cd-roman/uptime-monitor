@@ -15,6 +15,6 @@
   },
   "devDependencies": {
     "@vercel/ncc": "^0.45.0",
-    "vitest": "^4.1.10"
+    "vitest": "^4.1.11"
   }
 }
